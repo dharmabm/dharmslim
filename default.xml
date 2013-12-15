@@ -316,4 +316,9 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="jellybean" />
 
+<!-- Project files for p970 device, vendor and kernel -->
+
+  <project path="vendor/lge" name="dharmabm/proprietary_vendor_lge" remote="github" revision="jellybean-stable" />
+  <project path="device/lge/p970" name="dharmabm/android_device_lge_p970" remote="github" revision="jellybean-stable" />
+  <project path="kernel/lge/p970" name="dharmabm/lge-kernel-sniper" remote="github" revision="jellybean-stable" />
 </manifest>
